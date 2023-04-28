@@ -19,7 +19,7 @@
     <br>
     <br>
     <div class="container">
-      <div class="item-1">
+      <div class="item-1"  id="question">
         9.You have N pills of characteristic values a1,a2….an.
 On each day i, you can take the i th pill and increase your health by ai points H:=H+ai or Do nothing and take 1 point of damage H:=H−1 , where H is a value denoting your health. You die if your health becomes zero. Initially H=10 .
 What is the minimum number of pills you should take to survive for N days.
@@ -31,16 +31,19 @@ What is the minimum number of pills you should take to survive for N days.
         <textarea id="input" name="code" placeholder="Enter the input"></textarea>
       </div>
       <div class="item-3">
-        <div class="item-2">
+        <div class="box item-2">
             <select name="" id="language">
-              <option value="py">python</option>
+              <option value="py">Python</option>
               <option value="java">Java</option>
               <option value="c">C</option>
             </select>
           </div>
         <textarea id="code" name="code" placeholder="Enter your code" ></textarea>
-        <button id="submit-button">Run</button>
-        <button id="submit">Submit</button>
+        <div class="btn-container">
+
+          <button class="btn blue" id="submit-button">Run</button>
+          <button  class="btn green" id="submit">Submit</button>
+        </div>
       </div>
       <div class="item-4">
           <textarea id="out" name="code"  placeholder="Output"></textarea>

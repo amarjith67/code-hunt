@@ -19,7 +19,7 @@
     <br>
     <br>
     <div class="container">
-      <div class="item-1">
+      <div class="item-1"   id="question">
         5.Kevin and Minwa love each other. Kevin wants to sent a message to Minwa and also don’t want any one to read it without his permission so he shifted every lowercase letter in a sentence by -2 position and every upper case letter by -3 position (if the letter is c, after shifting 2 by -2 position it changes to a,and for D new letter will be A). but the letter is too long, and kevin does not have enough time to encrypt his whole letter. Write a program to help kevin that prints the encrypted message you can assume there are no special characters except spaces and numeric value. 
         <br><br>Sample Input :<br><br>See you Soon
         <br><br>Sample Output :<br><br>Pcc wms Pmml
@@ -28,16 +28,19 @@
         <textarea id="input" name="code" placeholder="Enter the input"></textarea>
       </div>
       <div class="item-3">
-        <div class="item-2">
+        <div class="box item-2">
             <select name="" id="language">
-              <option value="py">python</option>
+              <option value="py">Python</option>
               <option value="java">Java</option>
               <option value="c">C</option>
             </select>
           </div>
         <textarea id="code" name="code" placeholder="Enter your code" ></textarea>
-        <button id="submit-button">Run</button>
-        <button id="submit">Submit</button>
+        <div class="btn-container">
+
+          <button class="btn blue" id="submit-button">Run</button>
+          <button  class="btn green" id="submit">Submit</button>
+        </div>
       </div>
       <div class="item-4">
           <textarea id="out" name="code"  placeholder="Output"></textarea>
